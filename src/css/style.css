@@ -2,10 +2,12 @@
 
 body{
    background-image: url(../images/bg-repeat.jpg);
+   background-repeat: repeat;
+   background-size: contain;
 }
 
 html{
-   font-family: 'Roboto', sans-serif
+   font-family: 'Roboto', sans-serif;
 }
 
 main{
