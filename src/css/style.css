@@ -1,23 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Roboto:wght@400;500;700;900&display=swap');
 
-body{
+body {
    background-image: url(../images/bg-repeat.jpg);
    background-repeat: repeat;
    background-size: contain;
 }
 
-html{
+html {
    font-family: 'Roboto', sans-serif;
 }
 
-main{
+main {
    display: flex;
    justify-content: center;
    align-items: center;
    height: 100vh;
 }
 
-.info{
+.info {
    padding-right: 60px;
 }
 
@@ -26,7 +26,7 @@ main{
    font-weight: 900;
 }
 
-.info p{
+.info p {
    color: #fff;
    width: 300px;
    height: 54px;
@@ -41,15 +41,53 @@ main{
    align-items: center;
    justify-content: center;
    background-color: #fff;
+   height: 430px;
    width: 340px;
-   height: 378px;
 }
 
-.inputs input{
+.inputs input {
    width: 300px;
    height: 35px;
    margin: 15px;
    border: solid 1px;
-   border-radius: 5px;
+   border-radius: 5px;  
+   font-weight: 700;
 }
 
+.inputs input::placeholder {
+   padding-left: 10px;
+}
+
+.inputs .last-input {
+   width: 298px;
+   height: 100px;
+   padding-bottom: 70px;
+}
+
+.inputs input:not(.last-input) {
+   height: 35px;
+}
+
+.form p {
+   height: 18px;
+   line-height: 18px;
+   font-size: 15px;
+   font-weight: 400;
+   margin-top: -12px;
+   padding-left: 5px;
+}
+
+.form button {
+   width: 298px;
+   height: 41px;
+   border-radius: 5px;
+   border: 5px;
+   margin-left: 20px;
+   margin-top: 20px;
+   background: #3CCC87;
+   color: #FFF;
+}
+
+.form button:hover{
+   cursor:pointer
+}
