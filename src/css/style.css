@@ -91,3 +91,11 @@ main {
 .form button:hover{
    cursor:pointer
 }
+
+input.redborder {
+    border: 1px solid #F52e2e; /* Borda vermelha */
+}
+
+input.greenborder {
+    border: 1px solid #00c22b; /* Borda verde */
+}
