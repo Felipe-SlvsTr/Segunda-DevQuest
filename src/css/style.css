@@ -41,7 +41,7 @@ main {
    align-items: center;
    justify-content: center;
    background-color: #fff;
-   height: 430px;
+   height: 470px;
    width: 340px;
 }
 
@@ -73,7 +73,7 @@ main {
    line-height: 18px;
    font-size: 15px;
    font-weight: 400;
-   margin-top: -12px;
+   margin-top: -8px;
    padding-left: 5px;
 }
 
@@ -88,14 +88,27 @@ main {
    color: #FFF;
 }
 
+
 .form button:hover{
    cursor:pointer
 }
 
 input.redborder {
-    border: 1px solid #F52e2e; /* Borda vermelha */
+    border: 1px solid #F52e2e;
 }
 
 input.greenborder {
-    border: 1px solid #00c22b; /* Borda verde */
+    border: 1px solid #00c22b;
+}
+
+.form .error-message {
+   font-family: 'Roboto', sans-serif;
+   font-size: 8px;
+   font-weight: 400;
+   line-height: 9.38px;
+   text-align: left;
+   text-underline-position: from-font;
+   text-decoration-skip-ink: none;
+   margin-left: 10px;
+   color: #F52e2e;
 }
